@@ -1,4 +1,4 @@
-body {
+body , html{
   margin: 0;
   padding: 0;
 }
@@ -128,4 +128,33 @@ body {
   .navbar-brand img{
     height: 150%;
   }
+}
+.whole_continer{
+  z-index: 9;
+  position: relative;
+  background: white;
+  margin-bottom: 350px;
+}
+/* CONTENT ABOUT*/
+section{
+  height: 100px;
+}
+
+ h1{
+   letter-spacing: 1px;
+   font: normal 30px 'Montserrat';
+   margin-bottom: 30px;
+}
+h3{
+  letter-spacing: 4px;
+  font: normal 28px 'Montserrat';
+}
+p{
+  margin-top: 0rem;
+  line-height: 3.7777rem !important;
+  margin-bottom: 2.7777rem !important;
+  word-spacing: 0.5px;
+  letter-spacing: 2px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font: normal 24px 'Pangolin';
 }
